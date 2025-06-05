@@ -1,0 +1,88 @@
+/* BASE */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('/Images/bg.jpg');
+}
+
+/* GIVE MAIN & DIV.NAV CONTENT SAME SIZE TO ALIGN VERT ACROSS ELEMENTS */
+main,
+div.nav {
+	min-width: 30%;
+	max-width: 60%;
+	margin-inline: auto;
+}
+
+main {
+	padding: 16px;
+	background-color: white;
+	height: 100vh;
+}
+
+.container {
+	padding: 20px;
+}
+
+/* NAV */
+nav {
+	background: #246ac5;
+	padding: 10px;
+}
+
+nav a {
+	color: white;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+/* CTA / CALLS TO ACTION */
+.ctaCenter {
+	text-align: center;
+}
+.ctaRight {
+	text-align: right;
+}
+
+/* UI ELEMENTS */
+button {
+	margin: 5px;
+	padding: 8px 12px;
+	background-color: blueviolet;
+	color: white;
+	border: none;
+	border-radius: 4px;
+
+	cursor: pointer;
+}
+
+button:disabled {
+	background: #999;
+}
+
+button.doubleSize {
+	padding: 24px 36px;
+	font-size: 18px;
+}
+
+/* INFORMATION DISPLAY */
+.centerInfo {
+	width: 70%;
+	margin-inline: auto;
+	margin-block: 32px;
+
+	background-color: hsl(271, 40%, 90%);
+	border: 2px dashed white;
+	padding: 16px;
+}
+
+/* HOMEPAGE */
+.homeWrapper {
+	text-align: center;
+	width: 70%;
+	margin: 48px auto;
+	border: 2px solid blueviolet;
+	border-radius: 8px;
+	padding: 32px 16px;
+}

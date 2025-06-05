@@ -1,0 +1,69 @@
+ASSIGNMENT 1: FOUNDATIONS OF ADVANCED FRONT-END DEVELOPMENT
+
+Overview:
+In this assignment, you will demonstrate your understanding of the foundational concepts
+of front-end development covered in Weeks 1 through 4.
+You will apply your knowledge of HTML, CSS, JavaScript, and React to create a simple web application that incorporates components, props, state management, event handling, and conditional rendering.
+
+Objectives:
+1. [X] Set up a basic web application using React and Next.js.
+2. [X] Create multiple components and manage their state effectively.
+3. [X] Implement event handling for user interactions.
+4. [X] Use conditional rendering to display different content based on user actions or application state.
+5. [X] Style your application using CSS for a polished look.
+
+
+Deliverables:
+1. [X] Web Application:
+    [X] Create a React web application using Next.js that includes:
+    [X] A home page with a welcome message.
+    [X] A navigation menu to navigate between components.
+    [X] At least two additional pages/components that demonstrate different features.
+        [X] Accessory Select
+        [X] Meals Select
+        [X] Days Select
+        [X] Summary Screen w/Modal
+
+
+2. Components:
+    [X] Create at least three components, each handling its own state.
+        [X] Wizard Option Accessory
+        [X] Wizard Option Meal
+        [X] Wizard Option Days
+
+    [X] Use props to pass data between components.
+
+
+3. Event Handling:
+    [X] Implement event handlers for at least two different user interactions
+        [X] Button Clicks
+        [X] Hover update image change
+    [X] Ensure that user actions update the component state appropriately.
+
+
+4. Conditional Rendering:
+[X] Use conditional rendering to display content based on the state. 
+    [X] Wizard Nav buttons
+    [X] No choices picked Message
+    [X] Bottom Prev/Next Nav
+
+
+5. Styling:
+    [~] Style your application using CSS to enhance the user interface.
+    [~] Ensure that your application is visually appealing 
+    [X] Ensure that your application is user-friendly.
+
+
+Submission Guidelines:
+[X] Submit your web application as a GitHub repository link.
+[X] Ensure your code is well-documented with comments explaining key parts of your implementation.
+[X] Provide screenshots of your application in action, showcasing the functionality you implemented.
+
+
+Rubric:
+1. Application Structure: Clear organization of files and folders - 1 point
+2. Component Creation: At least three functional components with props - 2 points
+3. State Management: Effective management of state across components - 2 points
+4. Event Handling: Implementation of user interactions and state updates - 2 points
+5. Conditional Rendering: Correct use of conditional rendering to display content - 2 points
+6. Styling: Overall appearance and user experience of the application - 1 point
